@@ -1,0 +1,66 @@
+"""
+3. No need to write a program. Just pseudocode is enough.Define a class for a instagram post. Define the properties and functions.
+Define which one will be private and which one public.
+"""
+# we have to deter mine if the user is private or public 
+def likes(likes):
+  likes+=1
+  return(likes)
+
+# function to add the comments
+def commentadd(comments)
+  comment="comment by someone"
+   return(comment)
+
+# function to remove the comment
+def commentsremove(comments):
+   comment_no=("enter the (index no of)comment you want to remove")
+   return(comment_no-1)
+
+# conditional statement to find if the user account is private or public
+if user == "private"
+  # class instagram post
+  class instagram_post:
+  # private class
+  private class:
+    IpAddress:192.168.121.122 # example ip address.
+    TaggedAccounts=[acc1,acc2,acc3,acc4,acc5] # tagged accounts
+    username="usrename" # username 
+    comments=[] # inital comment(empty list)
+    likes=0 # initially 0 likes
+    caption="caption given by the user" # caption given by user
+    share=0 
+    # conditial statements to find if the like is pressed
+    if like is pressed:
+        # incremented like is stored
+        likes=inc_likes(likes)
+    # conditional statement to check if someone commented
+    if someoneCommented:
+        comment.append(commentadd(comments))
+    # if the user want to delete the comment.
+    private class(onlyuser):
+        if user wants to delete a comment:
+            del comments[commentremove()]
+
+else:
+  private class:
+   IpAddress:198.198.198.20
+  public class:
+  TaggedAccounts=[acc1,acc2,acc3,acc4,acc5] # tagged accounts
+    username="usrename" # username 
+    comments=[] # inital comment(empty list)
+    likes=0 # initially 0 likes
+    caption="caption given by the user" # caption given by user
+    share=0 
+    # conditial statements to find if the like is pressed
+    if like is pressed:
+        # incremented like is stored
+        likes=inc_likes(likes)
+    # conditional statement to check if someone commented
+    if someoneCommented:
+        comment.append(commentadd(comments))
+    # if the user want to delete the comment.
+    private class(onlyuser):
+        if user wants to delete a comment:
+            del comments[commentremove()]
+    
