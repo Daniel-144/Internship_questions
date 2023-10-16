@@ -19,7 +19,8 @@ def findA(counter,i,passage):
 
 passage=input("enter the passage")
 passage=passage.lower()
-pasage=passage.split(" ")
+passage=passage.split(" ")
+print(passage)
 count=0
 for i in range(len(passage) - 1):
      for j in range(len(passage)):
